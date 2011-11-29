@@ -1,0 +1,16 @@
+{
+  "name": "passport-tumblr",
+  "version": "0.1.0",
+  "description": "Tumblr authentication strategy for Passport.",
+  "author": "Jared Hanson <jaredhanson@gmail.com> (http://www.jaredhanson.net/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jaredhanson/passport-tumblr.git"
+  },
+  "main": "./lib/passport-tumblr",
+  "dependencies": {
+    "passport-oauth": ">= 0.1.0"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "keywords": ["passport", "tumblr", "auth", "authn", "authentication", "identity"]
+}
