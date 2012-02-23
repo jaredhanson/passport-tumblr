@@ -1,7 +1,7 @@
 # Passport-Tumblr
 
 [Passport](https://github.com/jaredhanson/passport) strategy for authenticating
-with Tumblr using the OAuth 1.0a API.
+with [Tumblr](https://www.tumblr.com/) using the OAuth 1.0a API.
 
 ## Installation
 
@@ -50,9 +50,16 @@ application:
         res.redirect('/');
       });
 
-#### Examples
+## Examples
 
 For a complete, working example, refer to the [login example](https://github.com/jaredhanson/passport-tumblr/tree/master/examples/login).
+
+## Tests
+
+    $ npm install --dev
+    $ make test
+
+[![Build Status](https://secure.travis-ci.org/jaredhanson/passport-tumblr.png)](http://travis-ci.org/jaredhanson/passport-tumblr)
 
 ## Credits
 

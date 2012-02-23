@@ -84,6 +84,12 @@ vows.describe('TumblrStrategy').addBatch({
         assert.equal(profile.provider, 'tumblr');
         assert.equal(profile.username, 'derekg');
       },
+      'should set raw property' : function(err, profile) {
+        assert.isString(profile._raw);
+      },
+      'should set json property' : function(err, profile) {
+        assert.isObject(profile._json);
+      },
     },
   },
   
