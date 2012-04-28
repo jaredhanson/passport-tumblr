@@ -1,7 +1,13 @@
 # Passport-Tumblr
 
-[Passport](https://github.com/jaredhanson/passport) strategy for authenticating
-with [Tumblr](https://www.tumblr.com/) using the OAuth 1.0a API.
+[Passport](http://passportjs.org/) strategy for authenticating with [Tumblr](https://www.tumblr.com/)
+using the OAuth 1.0a API.
+
+This module lets you authenticate using Tumblr in your Node.js applications.
+By plugging into Passport, Tumblr authentication can be easily and
+unobtrusively integrated into any application or framework that supports
+[Connect](http://www.senchalabs.org/connect/)-style middleware, including
+[Express](http://expressjs.com/).
 
 ## Installation
 
