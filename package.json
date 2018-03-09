@@ -1,6 +1,6 @@
 {
   "name": "passport-tumblr",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Tumblr authentication strategy for Passport.",
   "keywords": ["passport", "tumblr", "auth", "authn", "authentication", "identity"],
   "repository": {
@@ -17,15 +17,15 @@
   },
   "licenses": [ {
     "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
+    "url": "http://www.opensource.org/licenses/MIT"
   } ],
   "main": "./lib/passport-tumblr",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": "0.1.x"
+    "pkginfo": "0.4.x",
+    "passport-oauth": "1.0.0"
   },
   "devDependencies": {
-    "vows": "0.6.x"
+    "vows": "0.8.x"
   },
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
